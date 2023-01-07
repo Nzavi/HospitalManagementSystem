@@ -28,12 +28,12 @@ class Doctors(Resource):
         return doctorInput
 
 class Doctor(Resource):
-    """It include all the apis carrying out the activity with the single doctor"""
+    """It include all the APIs  carrying out the activity with the single doctor"""
 
 
     def get(self,id):
         """get the details of the docktor by the doctor id"""
-
+                return selfex
         doctor = conn.execute("SELECT * FROM doctor WHERE doc_id=?",(id,)).fetchall()
         return doctor
 
